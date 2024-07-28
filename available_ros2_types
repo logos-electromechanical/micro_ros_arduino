@@ -132,8 +132,10 @@ rcl_interfaces/SetParameters.srv
 rcl_interfaces/SetParametersAtomically.srv
 rcl_interfaces/SetParametersResult.msg
 rosgraph_msgs/Clock.msg
+sail_interfaces/AnalogInput.msg
 sail_interfaces/AuxPropulsionFeedback.msg
 sail_interfaces/DeployAuxPropulsion.action
+sail_interfaces/InitializeActuator.action
 sail_interfaces/PwmOutput.msg
 sail_interfaces/SailState.msg
 sail_interfaces/WindData.msg
