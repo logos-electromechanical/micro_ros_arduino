@@ -164,7 +164,7 @@ fi
 if [[ " ${PLATFORMS[@]} " =~ " teensy4 " ]]; then
     rm -rf firmware/build
 
-    export TOOLCHAIN_PREFIX=/uros_ws/teensy-compile/tools/arm/bin/arm-none-eabi-
+    export TOOLCHAIN_PREFIX=/toolchain-teensy/bin/arm-none-eabi-
     ros2 run micro_ros_setup build_firmware.sh /project/extras/library_generation/teensy4_toolchain.cmake /project/extras/library_generation/colcon.meta
 
     find firmware/build/include/ -name "*.c"  -delete
@@ -220,7 +220,7 @@ fi
 if [[ " ${PLATFORMS[@]} " =~ " esp32 " ]]; then
     rm -rf firmware/build
 
-    export TOOLCHAIN_PREFIX=/uros_ws/xtensa-esp32-elf/bin/xtensa-esp32-elf-
+    export TOOLCHAIN_PREFIX=/toolchain-esp32/bin/xtensa-esp32-elf-
     ros2 run micro_ros_setup build_firmware.sh /project/extras/library_generation/esp32_toolchain.cmake /project/extras/library_generation/colcon.meta
 
     find firmware/build/include/ -name "*.c"  -delete
@@ -234,7 +234,7 @@ fi
 if [[ " ${PLATFORMS[@]} " =~ " esp32s3 " ]]; then
     rm -rf firmware/build
 
-    export TOOLCHAIN_PREFIX=/uros_ws/xtensa-esp32-elf/bin/xtensa-esp32-elf-
+    export TOOLCHAIN_PREFIX=/toolchain-esp32/bin/xtensa-esp32-elf-
     ros2 run micro_ros_setup build_firmware.sh /project/extras/library_generation/esp32_toolchain.cmake /project/extras/library_generation/colcon.meta
 
     find firmware/build/include/ -name "*.c"  -delete
