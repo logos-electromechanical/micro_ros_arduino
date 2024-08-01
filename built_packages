@@ -1,5 +1,5 @@
 
-https://github.com/ProjectLadon/ros2_sail_interfaces.git bb8967ff04c23ac948f4fa68aaa3f96d6fc766e6
+https://github.com/ProjectLadon/ros2_sail_interfaces.git 6d7b2b1edfb3aa279c6f201c4fc94d053e31c05b
 https://github.com/ament/ament_cmake.git 7913db222ccbe58f3f93ac6cc150e2dd8afea40b
 https://github.com/ament/ament_index.git f019d6c40991799a13b18c9c3dcc583e3fde0381
 https://github.com/ament/ament_lint.git 0a73a2690863fc5ab8c31714f8e512bdcbb3616e
@@ -10,7 +10,7 @@ https://github.com/eProsima/Micro-CDR.git ed4fd513a24a53b93d548d342cb7aa0a18716f
 https://github.com/eProsima/Micro-XRCE-DDS-Client.git 83f129a80770a09aac9e823896ecbf6a0eddf0fc
 https://github.com/micro-ROS/micro_ros_msgs.git 10be4d005fbc7d8dd60dbb213b65f4171419bfe9
 https://github.com/micro-ROS/micro_ros_utilities ae51419e61900bc521bce76ed2f8b0002a1a826a
-https://github.com/micro-ROS/rcl f726b224f11c7437492293e14e26d636ebd7698f
+https://github.com/micro-ROS/rcl 7349751de9cb037f08567328905c75b38bc33ca8
 https://github.com/micro-ROS/rcutils 3ae278cf916867d7bc52f49636e5c07dd07f5f6c
 https://github.com/micro-ROS/rmw-microxrcedds.git 1242ab5a1af6f9d3b2893fd0d9cd3ff98ca2b004
 https://github.com/micro-ROS/rosidl_typesupport.git 20f4849939c60d46f6e39b3720bb581e111bd166

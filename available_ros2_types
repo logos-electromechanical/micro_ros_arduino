@@ -135,9 +135,14 @@ rosgraph_msgs/Clock.msg
 sail_interfaces/AnalogInput.msg
 sail_interfaces/AuxPropulsionFeedback.msg
 sail_interfaces/DeployAuxPropulsion.action
+sail_interfaces/GetPidTuning.srv
 sail_interfaces/InitializeActuator.action
+sail_interfaces/PidDebug.msg
+sail_interfaces/PidTuning.msg
 sail_interfaces/PwmOutput.msg
 sail_interfaces/SailState.msg
+sail_interfaces/SetPidTuning.srv
+sail_interfaces/SwitchPidDebug.srv
 sail_interfaces/WindData.msg
 sail_interfaces/WingOrientation.msg
 sail_interfaces/WingsailActuator.msg
